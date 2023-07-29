@@ -74,14 +74,20 @@ body{
   font-family: 'Playfair Display', serif;
 }
 
-.nav-colored{
+/* .nav-colored{
     background-color: white;
     color: black;
-}
-.nav-transparent{
-  background-color: none;
+} */
+/* .nav-transparent{
+  background-color: black;
   color: white;
+} */
+
+.mynav{
+  /* background-color: black; */
+  /* color: black; */
 }
+
 
 /* Carousal Section */
 .carousel-caption{
