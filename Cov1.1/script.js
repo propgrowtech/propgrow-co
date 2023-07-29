@@ -5,17 +5,6 @@ arrowIcons = document.querySelectorAll(".wrapper i");
 let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff;
 
 
-const nav = document.getElementById('mynav');
-window.onscroll = function () { 
-    if (document.body.scrollTop >= 200 ) {
-        nav.classList.add("nav-colored");
-        nav.classList.remove("nav-transparent");
-    } 
-    else {
-        nav.classList.add("nav-transparent");
-        nav.classList.remove("nav-colored");
-    }
-};
 
 const showHideIcons = () => {
     // showing and hiding prev/next icon according to carousel scroll left value
